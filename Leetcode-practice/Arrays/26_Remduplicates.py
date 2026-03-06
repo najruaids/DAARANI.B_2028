@@ -9,6 +9,3 @@ class Solution:
                 nums[k] = nums[i]
                 k += 1
         return k
-n=list(map(int,input().split()))
-for i in n:
-    print(removeDuplicates(i))
